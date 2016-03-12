@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Update Calc with answer
-        textView2.setText(String.valueOf("("+firstUserInput+")"+calculation+"("+secondUserInput+")"+"= "+answer));
+        textView2.setText(String.valueOf(firstUserInput+" "+calculation+" "+secondUserInput+" "+" = "+answer));
 
         //Set boolean to false, user is done typing question
         stillTypingNumber = false;
