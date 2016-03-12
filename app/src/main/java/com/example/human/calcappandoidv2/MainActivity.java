@@ -1,5 +1,9 @@
 package com.example.human.calcappandoidv2;
-
+//  Author      : Tyler Cadeau
+//  Number Num  : 200246900
+//  Assignment  : Assignment2
+//  File        : MainActivity.java
+//  Date        : 03/11/2016
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -152,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
             tempNum = (tempNum*(-1));
 
         //Update Calc display
-        textView2.setText(textView2+"|"+String.valueOf(tempNum));
+        textView2.setText(String.valueOf(tempNum));
     }
 
     @Override
